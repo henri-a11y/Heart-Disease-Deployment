@@ -100,8 +100,8 @@ HeartDiseaseDeployment/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HeartDiseaseDeployment.git
-cd HeartDiseaseDeployment
+git clone https://github.com/henri-a11y/Assignment-10.git
+cd Assignment-10
 ```
 
 ### 2. Create a virtual environment (recommended)
@@ -136,14 +136,14 @@ Open [http://localhost:5000](http://localhost:5000) in your browser.
 
 ## GitHub Deployment
 
-1. Create a new repository on GitHub named `HeartDiseaseDeployment`.
+1. Create a new repository on GitHub named `Assignment-10`.
 2. Push the project (include `model.pkl` so Render can deploy without retraining):
 
 ```bash
 git add .
 git commit -m "Initial commit: Heart Disease ML deployment project"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/HeartDiseaseDeployment.git
+git remote add origin https://github.com/henri-a11y/Assignment-10.git
 git push -u origin main
 ```
 
@@ -151,7 +151,7 @@ git push -u origin main
 
 1. Go to [https://render.com](https://render.com) and sign in.
 2. Click **New +** → **Web Service**.
-3. Connect your GitHub account and select the `HeartDiseaseDeployment` repository.
+3. Connect your GitHub account and select the `Assignment-10` repository.
 4. Configure the service:
 
 | Setting        | Value                    |
