@@ -216,19 +216,10 @@ curl -X POST https://YOUR-APP.onrender.com/predict \
 
 Health check endpoint returning service status.
 
-## Screenshots
 
-<!-- Replace with actual screenshots after deployment -->
+**Render URL:** [https://heart-disease-predictor.onrender.com](https://heart-disease-2oun.onrender.com)
 
-| Home Page | Prediction Result |
-|-----------|-------------------|
-| ![Home Page](screenshots/home.png) | ![Prediction](screenshots/prediction.png) |
 
-## Live Demo
-
-**Render URL:** [https://heart-disease-predictor.onrender.com](https://heart-disease-predictor.onrender.com)
-
-*(Replace with your actual Render URL after deployment.)*
 
 ## License
 
