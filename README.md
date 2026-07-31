@@ -156,12 +156,18 @@ git push -u origin main
 
 | Setting        | Value                    |
 |----------------|--------------------------|
-| Name           | heart-disease-predictor  |
+| Name           | Assignment-10            |
 | Environment    | Python 3                 |
 | Build Command  | `pip install -r requirements.txt` |
 | Start Command  | *(auto-detected from Procfile)* |
 
-5. Render reads `runtime.txt` (`python-3.11.9`) and `Procfile` (`web: gunicorn app:app`) automatically.
+**Environment Variable (required if build uses wrong Python version):**
+
+| Key              | Value     |
+|------------------|-----------|
+| `PYTHON_VERSION` | `3.11.9`  |
+
+5. Render reads `runtime.txt`, `.python-version`, and `Procfile` automatically.
 6. Click **Create Web Service** and wait for deployment.
 
 No code changes are required for Render deployment.
