@@ -71,7 +71,7 @@ The model with the **highest test accuracy** is automatically selected and saved
 |---------------------|----------|
 | Logistic Regression | 0.8098   |
 | Decision Tree       | 0.9854   |
-| **Random Forest**   | **1.0000** |
+| **Random Forest**   | **0.853** |
 | SVM                 | 0.9268   |
 
 **Random Forest** was automatically selected as the best model (100% test accuracy) and saved as `model.pkl`.
